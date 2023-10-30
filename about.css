@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-family: back to back demo;
+    font-weight: 50px;
+    list-style: none;
+    /* overflow: hidden; */
+}
+
+*::selection {
+    background-color: #b977f3;
+    color: black;
+    overflow: hidden;
+}
+
+/* .hero {
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* video {
+    width: 100%;
+    height: 200vh;
+} */
+
+/* Nav Bar */
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 8%;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+nav .logo{
+    width: 80px;
+}
+/* nav .logo-hover{
+    width: 109px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+} */
+.figure:hover .logo-hover {
+    opacity: 1;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:  2.5rem;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    /* font-weight: 600; */
+    letter-spacing: 0.04;
+}
+nav ul li a:hover {
+    color: #d4b725;
+    padding: .5rem 0;
+    /* letter-spacing: 100; */
+    transition: all .30s ease;
+}
+.hero ul a:hover {
+    letter-spacing: 0.04cm;
+    transition: all .30s ease;
+}
+
+ul a:hover, nav a.active {
+    color: #d4b725;
+    border-bottom: .2rem solid #d4b725;
+    padding: 15rem 0;
+    letter-spacing: 0.10;
+    transition: all .30s ease-in-out;
+    text-decoration: none;
+}
+
+nav div .figure {
+    position: relative;
+}
+
+/* Cover */
+#cover .cover_img {
+    z-index: -1;
+    width: auto;
+}
+#cover {
+    overflow: hidden;
+}
+
+/* About Section */
+#about h1, h3 {
+    text-align: center;
+}
+#about .text {
+    text-align: center;
+    word-wrap: break-word;
+}
+#about img {
+    /* text-align: center; */
+    border-radius: 50%;
+    border: 2px solid;
+    margin: 5px 5px 5px 520px;
+}
+.images .img_1 {
+    background-color: #fff;
+    /* width: ; */
+}
+.images .img_2 {
+    /* left: 900rem; */
+    width: 150px;
+    height: 200px;
+}
+hr {
+    width: 40px;
+    height: 500px;
+}
+/* Map Section */
+
+.location {
+    /* display: flex; */
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.map img {
+    width: 300px;
+}
+/* .map_section h4 {
+    display: flex;
+    text-align: center;
+} */
