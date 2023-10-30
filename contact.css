@@ -117,7 +117,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #d4b725;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -126,7 +126,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #d4b725;
   }
   
   .container {
@@ -134,3 +134,12 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  /* body img {
+    background: url(./images/Pokemon_Sleep.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.09;
+  } */
